@@ -19,21 +19,9 @@ function dec(n) {
 n--;
   return n;
 }
-
-function makeInt(n, base) {
-var parsed = parseInt(n, base);
-  if (isNaN(parsed)) {
-    return 0;
-  }
-  else {
-    return parsed * 10;
+function makeInt(n) {
+  return parseInt(n, base);
 }
+function parseFloat(n) {
+  return parseFloat(n);
 }
-// function preserveDecimal(n) {
-//   if (isNaN(n)) {
-//     return NaN;
-//   }
-//   else {
-//     return parseFloat(n);
-//   }
-// }
