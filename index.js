@@ -19,7 +19,7 @@ function dec(n) {
 n--;
   return n;
 }
-function makeInt(n) {
+function makeInt(n, base) {
   return parseInt(n, base);
 }
 function parseFloat(n) {
