@@ -20,7 +20,7 @@ n--;
   return n;
 }
 function makeInt(n, b) {
-  return parseInt(n, b);
+  return parseInt(n, 10);
 }
 
 function preserveDecimal(n) {
